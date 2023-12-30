@@ -109,7 +109,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
         
     - name: Revert some drop sh*t
-      run: cp -rf $GITHUB_WORKSPACE/IPQ8071A/revert/* openwrt/      
+      run: cp -rf $GITHUB_WORKSPACE/general/AX6/* openwrt/      
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a

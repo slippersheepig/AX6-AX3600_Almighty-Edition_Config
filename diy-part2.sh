@@ -45,6 +45,5 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
 #rm -rf ../lean/luci-theme-argon
 
-#替换ath11k-firmware及passwall2的默认Makefile
+#替换ath11k-firmware的默认Makefile
 wget https://github.com/slippersheepig/AX6-AX3600_Almighty-Edition_Config/raw/main/Makefile-ath11k -O package/firmware/ath11k-firmware/Makefile
-wget https://github.com/slippersheepig/AX6-AX3600_Almighty-Edition_Config/raw/main/Makefile-passwall2 -O passwall2/luci-app-passwall2/Makefile

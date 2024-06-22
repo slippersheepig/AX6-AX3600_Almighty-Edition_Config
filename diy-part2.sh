@@ -47,3 +47,6 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-a
 
 #替换ath11k-firmware的默认Makefile
 wget https://github.com/slippersheepig/AX6-AX3600_Almighty-Edition_Config/raw/main/Makefile -O package/firmware/ath11k-firmware/Makefile
+
+#替换uugamebooster的默认Makefile
+wget https://github.com/kenzok8/small-package/raw/main/uugamebooster/Makefile -O package/uugamebooster/Makefile
